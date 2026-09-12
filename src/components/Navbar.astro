@@ -1,0 +1,93 @@
+---
+// Navbar component for La Matria - Stitch Design System
+---
+
+<header class="sticky top-0 w-full z-50 bg-background/85 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300">
+  <div class="flex justify-between items-center px-6 sm:px-8 py-4 max-w-7xl mx-auto">
+    <!-- Brand -->
+    <a href="#hero" class="flex items-center gap-3 group">
+      <span class="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-terracotta font-serif font-bold text-xl group-hover:scale-110 transition-transform">
+        ❦
+      </span>
+      <div class="flex flex-col">
+        <span class="font-display text-2xl font-bold text-terracotta tracking-tight group-hover:text-primary transition-colors">
+          La Matria
+        </span>
+        <span class="text-[10px] tracking-widest uppercase font-semibold text-ochre -mt-1">
+          Piedad Morales
+        </span>
+      </div>
+    </a>
+
+    <!-- Desktop Nav Links -->
+    <nav class="hidden md:flex gap-7 items-center font-body text-sm font-medium">
+      <a 
+        href="#biografia" 
+        class="text-terracotta font-bold border-b-2 border-terracotta pb-0.5 hover:opacity-80 transition-opacity"
+      >
+        Biografía
+      </a>
+      <a 
+        href="#poesia" 
+        class="text-on-surface-variant hover:text-terracotta transition-colors"
+      >
+        Poesía
+      </a>
+      <a 
+        href="#activismo" 
+        class="text-on-surface-variant hover:text-terracotta transition-colors"
+      >
+        Activismo
+      </a>
+      <a 
+        href="#legado" 
+        class="text-on-surface-variant hover:text-terracotta transition-colors"
+      >
+        Carnavalenguas
+      </a>
+
+      <!-- Action Button with Stitch Rag-doll border -->
+      <a
+        href="#biografia"
+        class="bg-terracotta text-on-primary px-5 py-2 rounded-lg font-bold hover:scale-105 active:scale-95 transition-all rag-doll-border-alt shadow-sm text-xs uppercase tracking-wider inline-flex items-center gap-1.5"
+      >
+        <span>Explorar</span>
+        <span class="material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button 
+      type="button"
+      id="mobile-menu-btn"
+      class="md:hidden text-terracotta p-2 hover:bg-surface-container rounded-lg transition-colors"
+      aria-label="Abrir menú"
+    >
+      <span class="material-symbols-outlined text-2xl">menu</span>
+    </button>
+  </div>
+
+  <!-- Mobile Dropdown Menu -->
+  <div id="mobile-menu" class="hidden md:hidden px-6 pb-6 pt-2 bg-surface-container-low border-b border-outline-variant/40 space-y-3 font-body">
+    <a href="#biografia" class="block py-2 text-terracotta font-bold border-l-2 border-terracotta pl-3">Biografía</a>
+    <a href="#poesia" class="block py-2 text-on-surface-variant hover:text-terracotta pl-3">Poesía</a>
+    <a href="#activismo" class="block py-2 text-on-surface-variant hover:text-terracotta pl-3">Activismo</a>
+    <a href="#legado" class="block py-2 text-on-surface-variant hover:text-terracotta pl-3">Carnavalenguas</a>
+    <div class="pt-2">
+      <a
+        href="#biografia"
+        class="w-full text-center block bg-terracotta text-on-primary py-2.5 rounded-lg font-bold rag-doll-border-alt text-xs uppercase tracking-wider"
+      >
+        Explorar Archivo
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>
