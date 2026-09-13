@@ -1,5 +1,5 @@
 ---
-import '../styles/global.css';
+import "../styles/global.css";
 
 interface Props {
 	title?: string;
@@ -7,8 +7,8 @@ interface Props {
 }
 
 const {
-	title = 'La Matria - Piedad Morales | El Hada Rebelde',
-	description = 'Tejido con memoria y poesía. Un espacio dedicado a Piedad Morales, donde la palabra se vuelve hilo y la lucha se viste de colores orgánicos.',
+	title = "La Matria - Piedad Morales | El Hada Rebelde",
+	description = "Tejido con memoria y poesía. Un espacio dedicado a Piedad Morales, donde la palabra se vuelve hilo y la lucha se viste de colores orgánicos.",
 } = Astro.props;
 ---
 
@@ -17,8 +17,7 @@ const {
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<title>{title}</title>
@@ -36,7 +35,9 @@ const {
 			rel="stylesheet"
 		/>
 	</head>
-	<body class="bg-background text-on-background font-body min-h-screen flex flex-col relative overflow-x-hidden antialiased selection:bg-primary-fixed selection:text-primary">
+	<body
+		class="bg-background text-on-background font-body min-h-screen flex flex-col relative overflow-x-hidden antialiased selection:bg-primary-fixed selection:text-primary"
+	>
 		<slot />
 	</body>
 </html>

@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
+import Biografia from '../components/Biografia.astro';
 ---
 
 <Layout 
@@ -36,7 +37,7 @@ import Hero from '../components/Hero.astro';
         
         <!-- 1. Biography: "El Hada Rebelde" (Spans 2 cols on md+) -->
         <article 
-          id="biografia"
+          id="resumen-biografia"
           class="md:col-span-2 bg-surface-container-low p-7 sm:p-8 rag-doll-border paper-shadow relative group hover:-translate-y-1 transition-all duration-300 colouring-fill flex flex-col justify-between"
         >
           <div class="absolute top-5 right-5 text-secondary-fixed select-none pointer-events-none">
@@ -95,10 +96,10 @@ import Hero from '../components/Hero.astro';
 
           <div class="mt-8 pt-4 border-t border-outline-variant/40 flex items-center justify-between">
             <span class="text-xs font-bold text-ochre uppercase tracking-wider">Memoria Histórica</span>
-            <span class="inline-flex items-center gap-1 text-xs font-bold text-terracotta hover:underline">
+            <a href="#biografia" class="inline-flex items-center gap-1 text-xs font-bold text-terracotta hover:underline">
               <span>Leer biografía extendida</span>
-              <span class="material-symbols-outlined text-sm">arrow_forward</span>
-            </span>
+              <span class="material-symbols-outlined text-sm">arrow_downward</span>
+            </a>
           </div>
         </article>
 
@@ -225,6 +226,9 @@ import Hero from '../components/Hero.astro';
 
       </div>
     </section>
+
+    <!-- Biografía Section -->
+    <Biografia />
   </main>
 
   <!-- Tactile Footer -->
