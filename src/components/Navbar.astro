@@ -40,7 +40,7 @@
         Activismo
       </a>
       <a 
-        href="#legado" 
+        href="#carnavalenguas" 
         class="text-on-surface-variant hover:text-terracotta transition-colors"
       >
         Carnavalenguas
@@ -72,7 +72,7 @@
     <a href="#biografia" class="block py-2 text-terracotta font-bold border-l-2 border-terracotta pl-3">Biografía</a>
     <a href="#poesia" class="block py-2 text-on-surface-variant hover:text-terracotta pl-3">Poesía</a>
     <a href="#activismo" class="block py-2 text-on-surface-variant hover:text-terracotta pl-3">Activismo</a>
-    <a href="#legado" class="block py-2 text-on-surface-variant hover:text-terracotta pl-3">Carnavalenguas</a>
+    <a href="#carnavalenguas" class="block py-2 text-on-surface-variant hover:text-terracotta pl-3">Carnavalenguas</a>
     <div class="pt-2">
       <a
         href="#biografia"
@@ -89,5 +89,12 @@
   const menu = document.getElementById('mobile-menu');
   btn?.addEventListener('click', () => {
     menu?.classList.toggle('hidden');
+  });
+
+  const menuLinks = menu?.querySelectorAll('a');
+  menuLinks?.forEach(link => {
+    link.addEventListener('click', () => {
+      menu?.classList.add('hidden');
+    });
   });
 </script>

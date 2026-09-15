@@ -1,0 +1,377 @@
+---
+// Carnavalenguas.astro - Dedicated section for Carnavalenguas ("El Legado de la Alegría")
+// Based on the Stitch Design System "Tierra de Palabras"
+---
+
+<section 
+  id="carnavalenguas" 
+  class="w-full py-16 sm:py-24 bg-background relative overflow-hidden border-t border-outline-variant/40"
+>
+  <!-- Anchor alias for backwards compatibility with #legado links -->
+  <span id="legado" class="sr-only">Carnavalenguas</span>
+
+  <!-- Running Stitch Decoration at Top and Bottom -->
+  <div class="stitch-line absolute top-0 left-0 right-0 opacity-40"></div>
+  <div class="stitch-line absolute bottom-0 left-0 right-0 opacity-40"></div>
+
+  <!-- Ambient Organic Watermark Background Blobs in Warm Ochre & Amber -->
+  <div 
+    class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-secondary-fixed/30 blur-3xl pointer-events-none"
+    aria-hidden="true"
+  ></div>
+  <div 
+    class="absolute top-1/2 -right-36 w-[450px] h-[450px] rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"
+    aria-hidden="true"
+  ></div>
+  <div 
+    class="absolute -bottom-24 left-1/3 w-96 h-96 rounded-full bg-primary-fixed/20 blur-3xl pointer-events-none"
+    aria-hidden="true"
+  ></div>
+
+  <div class="max-w-7xl mx-auto px-6 sm:px-8 relative z-10">
+    
+    <!-- Section Header with Editorial Voice -->
+    <div class="max-w-3xl mb-14 sm:mb-20">
+      <div class="inline-flex items-center gap-2 bg-secondary-fixed text-on-secondary-container px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 border border-ochre/20 shadow-xs">
+        <span class="material-symbols-outlined text-sm text-ochre">celebration</span>
+        <span>Arte Popular • Comparsas de la Ternura</span>
+      </div>
+
+      <h2 class="font-display text-3xl sm:text-5xl lg:text-6xl font-bold text-terracotta tracking-tight leading-[1.15]">
+        Carnavalenguas: <br class="hidden sm:inline" />
+        <span class="italic text-ochre font-serif">El Legado de la Alegría</span>
+      </h2>
+
+      <!-- Monospace Poetic & Festive Inscription -->
+      <div class="mt-6 font-poetry text-sm sm:text-base text-charcoal bg-paper-grain p-4 sm:p-5 rounded-lg border-l-4 border-ochre paper-shadow relative colouring-fill">
+        <p class="italic text-base sm:text-lg text-ochre font-bold">
+          «¡Llevan presa la alegría! ¡A liberar la alegría!»
+        </p>
+        <span class="block text-right text-xs font-sans font-semibold text-on-surface-variant uppercase tracking-widest mt-2">
+          — Pregón popular de Piedad Morales en las comparsas
+        </span>
+      </div>
+
+      <p class="font-body text-base sm:text-lg text-on-surface-variant mt-6 leading-relaxed">
+        Carnavalenguas no fue un simple festejo: fue un proyecto pionero de liberación comunitaria. A través del teatro callejero, las bandas de viento, los títeres y el juego colectivo, Piedad transformó la risa y el color en actos políticos de ternura revolucionaria frente a la violencia.
+      </p>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- 1. FEATURED HISTORICAL IMAGE & NARRATIVE ARCHIVE                  -->
+    <!-- ================================================================= -->
+    <div class="mb-20 sm:mb-28">
+      <div class="bg-secondary-container/25 p-6 sm:p-10 lg:p-12 rounded-2xl border border-ochre/30 paper-shadow relative overflow-hidden">
+        
+        <!-- Running Stitches on Edges -->
+        <div class="stitch-line absolute top-0 left-6 right-6 opacity-40"></div>
+        <div class="stitch-line absolute bottom-0 left-6 right-6 opacity-40"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          <!-- Left Column (lg:col-span-7): Framed Archival Photograph (carnavaluegas.jpeg) -->
+          <div class="lg:col-span-7">
+            <div class="relative group">
+              
+              <!-- Cross-stitch detailing at Corners -->
+              <div class="absolute -top-3 -left-3 z-20 flex items-center gap-1 text-ochre select-none pointer-events-none" aria-hidden="true">
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+              </div>
+              <div class="absolute -bottom-3 -right-3 z-20 flex items-center gap-1 text-ochre select-none pointer-events-none" aria-hidden="true">
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+              </div>
+
+              <!-- Main Frame with Rag-Doll Border & Playful Tactile Slant -->
+              <div class="rag-doll-border bg-surface-container-highest p-3 sm:p-4 paper-shadow transform rotate-0.5 group-hover:rotate-0 transition-transform duration-500 bg-paper-grain">
+                
+                <div class="relative rounded-xl overflow-hidden aspect-[16/10] bg-surface-container shadow-inner">
+                  
+                  <!-- Authentic Photograph from public/images/carnavaluegas.jpeg -->
+                  <img 
+                    src="/images/carnavaluegas.jpeg" 
+                    alt="Fotografía histórica de la comparsa de Carnavalenguas con mujeres y comparsas populares en las calles" 
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    loading="lazy"
+                  />
+
+                  <!-- Inset Vignette -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-transparent pointer-events-none"></div>
+
+                  <!-- Top Archival Tag -->
+                  <div class="absolute top-3 left-3 z-10 pointer-events-none">
+                    <span class="bg-surface/90 backdrop-blur-md text-ochre text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full border border-ochre/30 shadow-xs flex items-center gap-1.5">
+                      <span class="material-symbols-outlined text-sm text-ochre">festival</span>
+                      <span>Registro Histórico • Carnaval Popular</span>
+                    </span>
+                  </div>
+
+                  <!-- Overlay Caption inside photo -->
+                  <div class="absolute bottom-3 left-3 right-3 bg-surface/95 backdrop-blur-xs p-3 rounded-md border border-outline-variant/60 shadow-sm">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <p class="font-display font-bold text-terracotta text-sm">
+                          Comparsa Carnavalenguas en Marcha
+                        </p>
+                        <p class="font-body text-xs text-on-surface-variant">
+                          Desfile callejero de teatro popular, color y digna alegría
+                        </p>
+                      </div>
+                      <span class="w-8 h-8 rounded-full bg-secondary/15 flex items-center justify-center text-ochre flex-shrink-0">
+                        <span class="material-symbols-outlined text-base">theater_comedy</span>
+                      </span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Frame Footnote -->
+                <div class="mt-3 px-2 flex items-center justify-between text-xs text-on-surface-variant font-mono">
+                  <span class="flex items-center gap-1 text-ochre font-bold">
+                    <span class="material-symbols-outlined text-sm">palette</span>
+                    <span>El Hada Rebelde en Acción</span>
+                  </span>
+                  <span>Archivo Vivo • Medellín y Puerto Berrío</span>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right Column (lg:col-span-5): Narrative & Philosophical Context -->
+          <div class="lg:col-span-5 flex flex-col justify-center space-y-6">
+            
+            <div class="space-y-2">
+              <span class="text-xs font-mono font-bold uppercase tracking-widest text-ochre">
+                Poética de la Fiesta
+              </span>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold text-charcoal leading-tight">
+                La Risa como Acto de Rebelión Popular
+              </h3>
+            </div>
+
+            <p class="font-body text-sm sm:text-base text-on-surface-variant leading-relaxed">
+              En barrios donde la guerra pretendía imponer el silencio y el toque de queda, Piedad irrumpía con su personaje de <strong class="text-charcoal font-semibold">«El Hada Rebelde»</strong>: cabellera tejida con hebras de lanas multicolores, rostro iluminado con mariposas pintadas y faldas de retazos campesinos.
+            </p>
+
+            <p class="font-body text-sm sm:text-base text-on-surface-variant leading-relaxed">
+              Las comparsas no eran simple entretenimiento: eran pedagogía del afecto. Permitían que las madres víctimas de la violencia y sus hijas e hijos se reapropiaran de las aceras, bailaran al compás de tambores y proclamaran que el miedo no gobernaría sus vidas.
+            </p>
+
+            <!-- Key Metrics / Achievements Badges -->
+            <div class="grid grid-cols-2 gap-3 pt-2">
+              <div class="bg-surface-container-lowest p-3.5 rounded-xl border border-ochre/20 paper-shadow">
+                <span class="font-display font-bold text-xl text-ochre block">+20</span>
+                <span class="font-body text-xs text-on-surface-variant font-medium">Comparsas barriales organizadas</span>
+              </div>
+              <div class="bg-surface-container-lowest p-3.5 rounded-xl border border-terracotta/20 paper-shadow">
+                <span class="font-display font-bold text-xl text-terracotta block">100%</span>
+                <span class="font-body text-xs text-on-surface-variant font-medium">Autogestión y trabajo comunitario</span>
+              </div>
+            </div>
+
+            <div class="pt-2 flex flex-wrap items-center gap-3">
+              <a 
+                href="#expresiones-callejeras" 
+                class="inline-flex items-center gap-2 bg-terracotta text-on-primary font-body text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-lg hover:scale-105 active:scale-95 transition-all shadow-sm rag-doll-border-alt"
+              >
+                <span>Descubrir las Expresiones</span>
+                <span class="material-symbols-outlined text-sm">south</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ================================================================= -->
+    <!-- 2. THREE FORMS OF POPULAR STREET ART (BENTO GRID)                 -->
+    <!-- ================================================================= -->
+    <div id="expresiones-callejeras" class="mb-20 sm:mb-28 scroll-mt-24">
+      
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 pb-4 border-b border-outline-variant/60 gap-4">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-ochre bg-secondary-fixed/60 px-3 py-1 rounded-full border border-ochre/20">
+            Trilogía Festiva
+          </span>
+          <h3 class="font-display text-2xl sm:text-4xl font-bold text-terracotta mt-2 tracking-tight">
+            Expresiones del Arte Callejero
+          </h3>
+        </div>
+        <p class="font-body text-xs sm:text-sm text-on-surface-variant max-w-md">
+          Los tres lenguajes artísticos mediante los cuales Carnavalenguas sembró esperanza en las comunidades de Antioquia.
+        </p>
+      </div>
+
+      <!-- Bento Grid for the 3 Street Art Forms -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        
+        <!-- Form 1: Teatro Foro & Títeres Gigantes -->
+        <article class="bg-surface-container-low p-7 rounded-2xl border border-outline-variant/60 paper-shadow hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+          <div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-secondary-fixed/40 group-hover:scale-125 transition-transform"></div>
+
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <span class="w-12 h-12 rounded-full bg-ochre/15 text-ochre flex items-center justify-center">
+                <span class="material-symbols-outlined text-2xl">theater_comedy</span>
+              </span>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-ochre bg-secondary-fixed px-2.5 py-0.5 rounded-full">
+                Teatro Popular
+              </span>
+            </div>
+
+            <h4 class="font-display text-2xl font-bold text-charcoal mb-3 group-hover:text-ochre transition-colors">
+              Teatro Foro y Títeres Gigantes
+            </h4>
+
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+              Inspirado en el teatro del oprimido, las mujeres representaban escenas de su cotidianidad: la violencia intrafamiliar, el dolor del conflicto y la indiferencia social. El público interrumpía la obra para ensayar soluciones colectivas en tiempo real.
+            </p>
+
+            <div class="space-y-2 pt-2 border-t border-outline-variant/30 text-xs text-on-surface-variant font-medium">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-ochre">check_circle</span>
+                <span>Títeres elaborados con cartón y retazos</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-ochre">check_circle</span>
+                <span>Diálogo participativo en plazas y canchas</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-outline-variant/40 flex items-center justify-between text-xs text-ochre font-bold">
+            <span>Dramaturgia Comunitaria</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </article>
+
+        <!-- Form 2: Bandas de Viento & Batucadas (Center Highlight) -->
+        <article class="bg-surface-container-low p-7 rounded-2xl border-2 border-ochre paper-shadow hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden bg-secondary-container/20">
+          <div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-secondary-container/30 group-hover:scale-125 transition-transform"></div>
+          
+          <div class="absolute top-4 right-4">
+            <span class="bg-ochre text-on-primary text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full shadow-xs">
+              Música en Vivo
+            </span>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <span class="w-12 h-12 rounded-full bg-ochre/20 text-ochre flex items-center justify-center">
+                <span class="material-symbols-outlined text-2xl">music_note</span>
+              </span>
+            </div>
+
+            <h4 class="font-display text-2xl font-bold text-ochre mb-3">
+              Música de Viento y Tambores
+            </h4>
+
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+              Las bandas de músicos populares (como la tradicional Banda 11 de Noviembre) recorrían las calles sin pavimentar. Los redoblantes y clarinetes anunciaban que la alegría no pedía permiso y que las calles volvían a pertenecer al pueblo.
+            </p>
+
+            <div class="space-y-2 pt-2 border-t border-ochre/30 text-xs text-on-surface-variant font-medium">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-ochre">check_circle</span>
+                <span>Porros, fandangos y cumbias de resistencia</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-ochre">check_circle</span>
+                <span>Danzas espontáneas de vecinas y niños</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-ochre/30 flex items-center justify-between text-xs text-ochre font-bold">
+            <span>Cadencia Ribereña</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+          </div>
+        </article>
+
+        <!-- Form 3: Muñecas de Trapo & Corona de Lanas -->
+        <article class="bg-surface-container-low p-7 rounded-2xl border border-outline-variant/60 paper-shadow hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+          <div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-primary-fixed/30 group-hover:scale-125 transition-transform"></div>
+
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <span class="w-12 h-12 rounded-full bg-terracotta/15 text-terracotta flex items-center justify-center">
+                <span class="material-symbols-outlined text-2xl">cruelty_free</span>
+              </span>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-terracotta bg-primary-fixed px-2.5 py-0.5 rounded-full">
+                Símbolo Vivo
+              </span>
+            </div>
+
+            <h4 class="font-display text-2xl font-bold text-charcoal mb-3 group-hover:text-terracotta transition-colors">
+              Muñecas de Trapo y Lanas
+            </h4>
+
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+              Confección comunitaria de muñecas artesanales de trapo como amuletos de afecto y memoria histórica. Cada muñeca llevaba el nombre y los anhelos de una niña o mujer del barrio, zurcidas con hilazas y ternura.
+            </p>
+
+            <div class="space-y-2 pt-2 border-t border-outline-variant/30 text-xs text-on-surface-variant font-medium">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-terracotta">check_circle</span>
+                <span>Peluca de hebras multicolores del Hada</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-terracotta">check_circle</span>
+                <span>Costura como terapia colectiva de duelo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-outline-variant/40 flex items-center justify-between text-xs text-terracotta font-bold">
+            <span>Ternura Artesanal</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+
+
+    <!-- ================================================================= -->
+    <!-- 3. FESTIVE CLOSING BANNER & PREGÓN MEMORABLE                      -->
+    <!-- ================================================================= -->
+    <div class="rag-doll-border bg-gradient-to-r from-secondary-container via-secondary-fixed to-secondary-container p-8 sm:p-12 paper-shadow relative overflow-hidden text-center">
+      
+      <!-- Running Stitches on Top & Bottom -->
+      <div class="stitch-line absolute top-0 left-0 right-0 opacity-50"></div>
+      <div class="stitch-line absolute bottom-0 left-0 right-0 opacity-50"></div>
+
+      <div class="max-w-2xl mx-auto space-y-4 relative z-10">
+        <span class="text-xs font-mono font-bold uppercase tracking-widest text-on-secondary-container/80">
+          Estandarte de la Ternura
+        </span>
+
+        <h3 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-on-secondary-container leading-tight italic">
+          "¡A liberar la alegría!"
+        </h3>
+
+        <p class="font-body text-sm sm:text-base text-on-secondary-container/90 leading-relaxed">
+          Que la risa nunca sea sumisión, sino el fuego inextinguible con el que los pueblos tejen su dignidad y defienden la vida.
+        </p>
+
+        <div class="pt-2 flex justify-center items-center gap-3 text-xs font-bold text-terracotta uppercase tracking-wider">
+          <span>El Hada Rebelde</span>
+          <span>•</span>
+          <span>Carnavalenguas Vive</span>
+          <span>•</span>
+          <span>La Matria</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>

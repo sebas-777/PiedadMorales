@@ -1,0 +1,396 @@
+---
+// Activismo.astro - Dedicated activism section for Piedad Morales ("Rutas de Paz y Movilización Feminista")
+// Based on the Stitch Design System "Tierra de Palabras"
+---
+
+<section 
+  id="activismo" 
+  class="w-full py-16 sm:py-24 bg-surface-container-low relative overflow-hidden border-t border-b border-outline-variant/40"
+>
+  <!-- Running Stitch Decoration at Top and Bottom -->
+  <div class="stitch-line absolute top-0 left-0 right-0 opacity-40"></div>
+  <div class="stitch-line absolute bottom-0 left-0 right-0 opacity-40"></div>
+
+  <!-- Ambient Organic Watermark Background Blobs in Feminist Purple & Lilac -->
+  <div 
+    class="absolute -top-28 -right-28 w-96 h-96 rounded-full bg-tertiary-fixed/30 blur-3xl pointer-events-none"
+    aria-hidden="true"
+  ></div>
+  <div 
+    class="absolute top-1/2 -left-36 w-[420px] h-[420px] rounded-full bg-secondary-fixed/20 blur-3xl pointer-events-none"
+    aria-hidden="true"
+  ></div>
+  <div 
+    class="absolute -bottom-24 right-1/4 w-96 h-96 rounded-full bg-primary-fixed/20 blur-3xl pointer-events-none"
+    aria-hidden="true"
+  ></div>
+
+  <div class="max-w-7xl mx-auto px-6 sm:px-8 relative z-10">
+    
+    <!-- Section Header with Editorial Voice -->
+    <div class="max-w-3xl mb-14 sm:mb-20">
+      <div class="inline-flex items-center gap-2 bg-tertiary-fixed text-on-tertiary-fixed px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 border border-feminist-purple/20 shadow-xs">
+        <span class="material-symbols-outlined text-sm">campaign</span>
+        <span>Lucha y Resistencia • 1990 - Presente</span>
+      </div>
+
+      <h2 class="font-display text-3xl sm:text-5xl lg:text-6xl font-bold text-terracotta tracking-tight leading-[1.15]">
+        Rutas de Paz y <br class="hidden sm:inline" />
+        <span class="italic text-feminist-purple font-serif">Movilización Feminista</span>
+      </h2>
+
+      <!-- Monospace Poetic & Political Inscription -->
+      <div class="mt-6 font-poetry text-sm sm:text-base text-charcoal bg-paper-grain p-4 sm:p-5 rounded-lg border-l-4 border-feminist-purple paper-shadow relative colouring-fill">
+        <p class="italic">
+          «La paz no es un decreto, es el latido insistente de las mujeres que se niegan a parir hijos para la guerra.»
+        </p>
+        <span class="block text-right text-xs font-sans font-semibold text-on-surface-variant uppercase tracking-widest mt-2">
+          — Proclama del Movimiento de Mujeres por la Paz
+        </span>
+      </div>
+
+      <p class="font-body text-base sm:text-lg text-on-surface-variant mt-6 leading-relaxed">
+        Un tapiz tejido con las voces, los cuerpos y los pasos de mujeres que desafiaron la guerra en Antioquia y Colombia. Para Piedad Morales, el feminismo nunca fue una teoría abstracta, sino un compromiso callejero, tierno e innegociable por la desmilitarización de la vida.
+      </p>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- 1. FEATURED HISTORICAL IMAGE & NARRATIVE ARCHIVE                  -->
+    <!-- ================================================================= -->
+    <div class="mb-20 sm:mb-28">
+      <div class="bg-surface-container-lowest p-6 sm:p-10 lg:p-12 rounded-2xl border border-outline-variant/60 paper-shadow relative overflow-hidden">
+        
+        <!-- Running Stitch on Top Edge -->
+        <div class="stitch-line absolute top-0 left-6 right-6 opacity-30"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          <!-- Left Column (lg:col-span-6): Framed Archival Photograph (activismo.jpeg) -->
+          <div class="lg:col-span-6">
+            <div class="relative group">
+              
+              <!-- Cross-stitch detailing at Corners -->
+              <div class="absolute -top-3 -left-3 z-20 flex items-center gap-1 text-feminist-purple select-none pointer-events-none" aria-hidden="true">
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+              </div>
+              <div class="absolute -bottom-3 -right-3 z-20 flex items-center gap-1 text-feminist-purple select-none pointer-events-none" aria-hidden="true">
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+                <span class="material-symbols-outlined text-lg rotate-45">close</span>
+              </div>
+
+              <!-- Main Frame with Rag-Doll Border Alt (Purple border) & Slant -->
+              <div class="rag-doll-border-alt bg-surface-container-highest p-3 sm:p-4 paper-shadow transform -rotate-1 group-hover:rotate-0 transition-transform duration-500 bg-paper-grain">
+                
+                <div class="relative rounded-xl overflow-hidden aspect-square bg-surface-container shadow-inner">
+                  
+                  <!-- Authentic Photograph from public/images/activismo.jpeg -->
+                  <img 
+                    src="/images/activismo.jpeg" 
+                    alt="Fotografía histórica de movilización feminista y resistencia pacífica con Piedad Morales y colectivos de mujeres en Colombia" 
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    loading="lazy"
+                  />
+
+                  <!-- Inset Gradient Vignette -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-transparent pointer-events-none"></div>
+
+                  <!-- Pill Tag on Image -->
+                  <div class="absolute top-3 left-3 z-10 pointer-events-none">
+                    <span class="bg-surface/90 backdrop-blur-md text-feminist-purple text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full border border-feminist-purple/30 shadow-xs flex items-center gap-1.5">
+                      <span class="material-symbols-outlined text-sm text-feminist-purple">photo_camera</span>
+                      <span>Registro Histórico • Fotografía Auténtica</span>
+                    </span>
+                  </div>
+
+                  <!-- Overlay Caption inside photo -->
+                  <div class="absolute bottom-3 left-3 right-3 bg-surface/95 backdrop-blur-xs p-3 rounded-md border border-outline-variant/60 shadow-sm">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <p class="font-display font-bold text-feminist-purple text-sm">
+                          Marcha y Vigilia por la Vida
+                        </p>
+                        <p class="font-body text-xs text-on-surface-variant">
+                          Movilización comunitaria de mujeres exigiendo el cese al fuego
+                        </p>
+                      </div>
+                      <span class="w-8 h-8 rounded-full bg-feminist-purple/15 flex items-center justify-center text-feminist-purple flex-shrink-0">
+                        <span class="material-symbols-outlined text-base">diversity_1</span>
+                      </span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Frame Footnote -->
+                <div class="mt-3 px-2 flex items-center justify-between text-xs text-on-surface-variant font-mono">
+                  <span class="flex items-center gap-1 text-feminist-purple font-bold">
+                    <span class="material-symbols-outlined text-sm">volunteer_activism</span>
+                    <span>Cuerpos que Resisten</span>
+                  </span>
+                  <span>Archivo Vivo • Medellín y Antioquia</span>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right Column (lg:col-span-6): Lyrical & Political Manifesto Narrative -->
+          <div class="lg:col-span-6 flex flex-col justify-center space-y-6">
+            
+            <div class="space-y-2">
+              <span class="text-xs font-mono font-bold uppercase tracking-widest text-feminist-purple">
+                La Calle como Trinchera de Afectos
+              </span>
+              <h3 class="font-display text-2xl sm:text-3xl font-bold text-charcoal leading-tight">
+                El Pacifismo no es Pasividad: Es Valentía Colectiva
+              </h3>
+            </div>
+
+            <p class="font-body text-sm sm:text-base text-on-surface-variant leading-relaxed">
+              Durante las décadas más cruentas del conflicto armado en Antioquia, Piedad Morales y sus compañeras decidieron que no responderían al plomo con más fuego. Su arma fue la presencia: salir a las calles vestidas de luto riguroso, entrelazar sus brazos y poner el cuerpo para proteger la vida de sus hijos, vecinos y comunidades.
+            </p>
+
+            <p class="font-body text-sm sm:text-base text-on-surface-variant leading-relaxed">
+              Piedad llevó su experiencia de enfermera de salud mental y su sensibilidad de poeta al corazón mismo de las marchas: cantaba versos improvisados, distribuía flores en retenes militares y consolaba a las madres víctimas del dolor forzado.
+            </p>
+
+            <!-- Key Archival Milestones / Badges -->
+            <div class="grid grid-cols-2 gap-3 pt-2">
+              <div class="bg-surface-container p-3 rounded-xl border border-outline-variant/50">
+                <span class="font-display font-bold text-lg text-feminist-purple block">1996</span>
+                <span class="font-body text-xs text-on-surface-variant font-medium">Primera Gran Ruta Pacífica a Mutatá (Urabá)</span>
+              </div>
+              <div class="bg-surface-container p-3 rounded-xl border border-outline-variant/50">
+                <span class="font-display font-bold text-lg text-terracotta block">+100</span>
+                <span class="font-body text-xs text-on-surface-variant font-medium">Talleres de Memoria y Duelo Comunitario</span>
+              </div>
+            </div>
+
+            <div class="pt-2 flex flex-wrap items-center gap-3">
+              <a 
+                href="#tres-pilares" 
+                class="inline-flex items-center gap-2 bg-feminist-purple text-on-primary font-body text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-lg hover:bg-tertiary-container transition-all shadow-sm"
+              >
+                <span>Conocer los Tres Pilares</span>
+                <span class="material-symbols-outlined text-sm">south</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ================================================================= -->
+    <!-- 2. THE THREE PILLARS (LOS TRES PILARES DEL MOVIMIENTO)           -->
+    <!-- ================================================================= -->
+    <div id="tres-pilares" class="mb-20 sm:mb-28 scroll-mt-24">
+      
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 pb-4 border-b border-outline-variant/60 gap-4">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-feminist-purple bg-tertiary-fixed px-3 py-1 rounded-full border border-feminist-purple/20">
+            Articulación Colectiva
+          </span>
+          <h3 class="font-display text-2xl sm:text-4xl font-bold text-terracotta mt-2 tracking-tight">
+            Los Tres Pilares de Resistencia
+          </h3>
+        </div>
+        <p class="font-body text-xs sm:text-sm text-on-surface-variant max-w-md">
+          Las tres organizaciones y redes donde Piedad Morales tejió su liderazgo pacifista y feminista en Colombia.
+        </p>
+      </div>
+
+      <!-- Bento Grid for the 3 Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        
+        <!-- Pillar 1: Corporación Vamos Mujer -->
+        <article class="bg-surface-container-lowest p-7 rounded-2xl border border-outline-variant/60 paper-shadow hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+          <div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-primary-fixed/30 group-hover:scale-125 transition-transform"></div>
+
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <span class="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+                <span class="material-symbols-outlined text-2xl">groups</span>
+              </span>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-terracotta bg-primary-fixed px-2.5 py-0.5 rounded-full">
+                Antioquia
+              </span>
+            </div>
+
+            <h4 class="font-display text-2xl font-bold text-charcoal mb-3 group-hover:text-primary transition-colors">
+              Corporación Vamos Mujer
+            </h4>
+
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+              Organización fundamental en la articulación de liderazgos femeninos en Medellín y municipios de Antioquia. Promueve la autonomía económica, la formación política y la defensa de los derechos sexuales y reproductivos.
+            </p>
+
+            <div class="space-y-2 pt-2 border-t border-outline-variant/30 text-xs text-on-surface-variant font-medium">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-terracotta">check_circle</span>
+                <span>Talleres de educación popular</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-terracotta">check_circle</span>
+                <span>Soberanía y redes solidarias</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-outline-variant/40 flex items-center justify-between text-xs text-terracotta font-bold">
+            <span>Autonomía y Dignidad</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </article>
+
+        <!-- Pillar 2: Ruta Pacífica de las Mujeres (Center Highlight) -->
+        <article class="bg-surface-container-lowest p-7 rounded-2xl border-2 border-feminist-purple paper-shadow hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden bg-tertiary-fixed/15">
+          <div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-feminist-purple/15 group-hover:scale-125 transition-transform"></div>
+          
+          <div class="absolute top-4 right-4">
+            <span class="bg-feminist-purple text-on-primary text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full shadow-xs">
+              Movimiento Nacional
+            </span>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <span class="w-12 h-12 rounded-full bg-feminist-purple/15 text-feminist-purple flex items-center justify-center">
+                <span class="material-symbols-outlined text-2xl">route</span>
+              </span>
+            </div>
+
+            <h4 class="font-display text-2xl font-bold text-feminist-purple mb-3">
+              Ruta Pacífica de las Mujeres
+            </h4>
+
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+              Movimiento pacifista nacional que moviliza a miles de mujeres hacia zonas de conflicto bélico. Su lema radical: <strong class="text-charcoal font-semibold">«Ni guerra que nos destruya, ni paz que nos oprima»</strong>, demandando la desmilitarización inmediata.
+            </p>
+
+            <div class="space-y-2 pt-2 border-t border-feminist-purple/20 text-xs text-on-surface-variant font-medium">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-feminist-purple">check_circle</span>
+                <span>Marchas de miles de mujeres a regiones en conflicto</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-feminist-purple">check_circle</span>
+                <span>Comisión de la verdad de las mujeres</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-feminist-purple/30 flex items-center justify-between text-xs text-feminist-purple font-bold">
+            <span>Antimilitarismo Activo</span>
+            <span class="material-symbols-outlined text-sm">star</span>
+          </div>
+        </article>
+
+        <!-- Pillar 3: Mujeres de Negro -->
+        <article class="bg-surface-container-lowest p-7 rounded-2xl border border-outline-variant/60 paper-shadow hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+          <div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-secondary-fixed/30 group-hover:scale-125 transition-transform"></div>
+
+          <div>
+            <div class="flex items-center justify-between mb-6">
+              <span class="w-12 h-12 rounded-full bg-ochre/15 text-ochre flex items-center justify-center">
+                <span class="material-symbols-outlined text-2xl">front_hand</span>
+              </span>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-ochre bg-secondary-fixed px-2.5 py-0.5 rounded-full">
+                Red Global
+              </span>
+            </div>
+
+            <h4 class="font-display text-2xl font-bold text-charcoal mb-3 group-hover:text-ochre transition-colors">
+              Mujeres de Negro
+            </h4>
+
+            <p class="font-body text-sm text-on-surface-variant leading-relaxed mb-6">
+              Red internacional de mujeres que, en riguroso luto, ocupan el espacio público en vigilias silentes. Convierten el dolor de la muerte y la desaparición forzada en un grito mudo pero ensordecedor de protesta contra la guerra.
+            </p>
+
+            <div class="space-y-2 pt-2 border-t border-outline-variant/30 text-xs text-on-surface-variant font-medium">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-ochre">check_circle</span>
+                <span>Plantones silenciosos en plazas públicas</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm text-ochre">check_circle</span>
+                <span>Duelo transformado en acción política</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-outline-variant/40 flex items-center justify-between text-xs text-ochre font-bold">
+            <span>Duelo & Dignidad</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+
+
+    <!-- ================================================================= -->
+    <!-- 3. PRINCIPLES & VALUES OF FEMINIST SOLIDARITY                     -->
+    <!-- ================================================================= -->
+    <div class="bg-tertiary-fixed/60 rounded-2xl p-8 sm:p-12 border border-feminist-purple/20 paper-shadow relative overflow-hidden">
+      
+      <!-- Watermark Background Icon -->
+      <div class="absolute -right-10 -bottom-10 opacity-10 text-feminist-purple select-none pointer-events-none">
+        <span class="material-symbols-outlined text-[160px]">diversity_3</span>
+      </div>
+
+      <div class="max-w-3xl relative z-10 space-y-6">
+        <div class="inline-flex items-center gap-2 bg-surface-container-lowest text-feminist-purple px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border border-feminist-purple/20 shadow-xs">
+          <span class="material-symbols-outlined text-sm">favorite</span>
+          <span>Principios Inquebrantables</span>
+        </div>
+
+        <h3 class="font-display text-2xl sm:text-4xl font-bold text-charcoal">
+          El Manifiesto de la Sororidad Radical
+        </h3>
+
+        <p class="font-body text-sm sm:text-base text-on-surface-variant leading-relaxed">
+          Piedad Morales y las mujeres de su tiempo sentaron las bases de una ética del cuidado colectivo que sigue vigente en los movimientos sociales contemporáneos de América Latina:
+        </p>
+
+        <!-- Principles Chips -->
+        <div class="flex flex-wrap gap-2.5 pt-2">
+          <span class="bg-surface-container-lowest text-feminist-purple px-4 py-2 rounded-xl text-xs font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-feminist-purple"></span>
+            Desmilitarización de la Vida y el Cuerpo
+          </span>
+          <span class="bg-surface-container-lowest text-feminist-purple px-4 py-2 rounded-xl text-xs font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-terracotta"></span>
+            No Violencia Activa
+          </span>
+          <span class="bg-surface-container-lowest text-feminist-purple px-4 py-2 rounded-xl text-xs font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-ochre"></span>
+            Memoria Viva sin Venganza
+          </span>
+          <span class="bg-surface-container-lowest text-feminist-purple px-4 py-2 rounded-xl text-xs font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-feminist-purple"></span>
+            Justicia Restaurativa
+          </span>
+          <span class="bg-surface-container-lowest text-feminist-purple px-4 py-2 rounded-xl text-xs font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-terracotta"></span>
+            Cuidado Colectivo
+          </span>
+        </div>
+
+        <div class="pt-4 border-t border-feminist-purple/20 flex items-center justify-between text-xs text-on-surface-variant">
+          <span class="font-serif italic text-charcoal">"Nuestros cuerpos no son botín de guerra, son territorio de paz."</span>
+          <span class="font-mono font-bold text-feminist-purple uppercase">La Matria Viva</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
