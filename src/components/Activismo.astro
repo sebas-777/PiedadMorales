@@ -1,6 +1,7 @@
 ---
 // Activismo.astro - Dedicated activism section for Piedad Morales ("Rutas de Paz y Movilización Feminista")
 // Based on the Stitch Design System "Tierra de Palabras"
+import { asset } from "../utils/paths";
 ---
 
 <section 
@@ -86,7 +87,7 @@
                   
                   <!-- Authentic Photograph from public/images/activismo.jpeg -->
                   <img 
-                    src="/images/activismo.jpeg" 
+                    src={asset("/images/activismo.jpeg")} 
                     alt="Fotografía histórica de movilización feminista y resistencia pacífica con Piedad Morales y colectivos de mujeres en Colombia" 
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"

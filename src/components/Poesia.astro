@@ -1,6 +1,7 @@
 ---
 // Poesia.astro - Dedicated poetry section for Piedad Morales ("Des Hojada Palabra")
 // Based on the Stitch Design System "Tierra de Palabras"
+import { asset } from "../utils/paths";
 ---
 
 <section 
@@ -92,7 +93,7 @@
                     playsinline
                     aria-label="Registro audiovisual y recital de Piedad Morales"
                   >
-                    <source src="/videos/video6.mp4" type="video/mp4" />
+                    <source src={asset("/videos/video6.mp4")} type="video/mp4" />
                     Tu navegador no soporta la reproducción de video HTML5.
                   </video>
 

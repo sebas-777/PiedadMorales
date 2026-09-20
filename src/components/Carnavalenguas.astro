@@ -1,6 +1,7 @@
 ---
 // Carnavalenguas.astro - Dedicated section for Carnavalenguas ("El Legado de la Alegría")
 // Based on the Stitch Design System "Tierra de Palabras"
+import { asset } from "../utils/paths";
 ---
 
 <section 
@@ -90,7 +91,7 @@
                   
                   <!-- Authentic Photograph from public/images/carnavaluegas.jpeg -->
                   <img 
-                    src="/images/carnavaluegas.jpeg" 
+                    src={asset("/images/carnavaluegas.jpeg")} 
                     alt="Fotografía histórica de la comparsa de Carnavalenguas con mujeres y comparsas populares en las calles" 
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"

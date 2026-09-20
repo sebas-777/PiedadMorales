@@ -1,6 +1,7 @@
 ---
 // Biografia.astro - Dedicated biography section for Piedad Morales (El Hada Rebelde)
 // Based on the Stitch Design System "Tierra de Palabras"
+import { asset } from "../utils/paths";
 ---
 
 <section
@@ -320,7 +321,7 @@
               class="relative overflow-hidden rounded-lg aspect-[4/4.5] bg-surface-container"
             >
               <img
-                src="/images/PiedadMorales3.jpeg"
+                src={asset("/images/PiedadMorales3.jpeg")}
                 alt="Retrato auténtico de Piedad Morales luciendo su icónica peluca de lanas multicolores y su mirada serena"
                 class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
@@ -366,7 +367,7 @@
               class="relative overflow-hidden rounded-lg aspect-[4/3] bg-surface-container"
             >
               <img
-                src="/images/PiedadMorales4.jpeg"
+                src={asset("/images/PiedadMorales4.jpeg")}
                 alt="Fotografía comunitaria de mujeres activistas y Piedad compartiendo sonrisas, rostros pintados y sororidad en Medellín"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
