@@ -3,210 +3,353 @@
 // Based on the Stitch Design System "Tierra de Palabras"
 ---
 
-<section id="biografia" class="w-full py-16 sm:py-24 bg-surface-container-low relative overflow-hidden border-t border-b border-outline-variant/40">
-  
+<section
+  id="biografia"
+  class="w-full py-16 sm:py-24 bg-surface-container-low relative overflow-hidden border-t border-b border-outline-variant/40"
+>
   <!-- Running Stitch Decoration at Top and Bottom -->
   <div class="stitch-line absolute top-0 left-0 right-0 opacity-40"></div>
   <div class="stitch-line absolute bottom-0 left-0 right-0 opacity-40"></div>
 
   <!-- Ambient Organic Watermark Background -->
-  <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
-  <div class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-tertiary-container/15 blur-3xl pointer-events-none"></div>
+  <div
+    class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"
+  >
+  </div>
+  <div
+    class="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-tertiary-container/15 blur-3xl pointer-events-none"
+  >
+  </div>
 
   <div class="max-w-7xl mx-auto px-6 sm:px-8 relative z-10">
-    
     <!-- Section Header with Editorial Voice -->
     <div class="max-w-3xl mb-14 sm:mb-20">
-      <div class="inline-flex items-center gap-2 bg-tertiary-fixed text-on-tertiary-fixed px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 border border-tertiary/20 shadow-xs">
+      <div
+        class="inline-flex items-center gap-2 bg-tertiary-fixed text-on-tertiary-fixed px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 border border-tertiary/20 shadow-xs"
+      >
         <span class="material-symbols-outlined text-sm">history_edu</span>
         <span>Capítulo Biográfico • Archivo Vivo</span>
       </div>
 
-      <h2 class="font-display text-3xl sm:text-5xl lg:text-6xl font-bold text-terracotta tracking-tight leading-[1.15]">
-        El Hada Rebelde: <br class="hidden sm:inline" />
+      <h2
+        class="font-display text-3xl sm:text-5xl lg:text-6xl font-bold text-terracotta tracking-tight leading-[1.15]"
+      >
+        La Cigarra Rebelde: <br class="hidden sm:inline" />
         <span class="italic text-ochre font-serif">Trazos de una Vida</span>
       </h2>
 
       <!-- Monospace Poetic Inscription -->
-      <div class="mt-6 font-poetry text-sm sm:text-base text-charcoal bg-paper-grain p-4 sm:p-5 rounded-lg border-l-4 border-terracotta paper-shadow relative">
+      <div
+        class="mt-6 font-poetry text-sm sm:text-base text-charcoal bg-paper-grain p-4 sm:p-5 rounded-lg border-l-4 border-terracotta paper-shadow relative"
+      >
         <p class="italic">
           «Diosa aromada de almizcle, María madre de sí misma...»
         </p>
-        <span class="block text-right text-xs font-sans font-semibold text-on-surface-variant uppercase tracking-widest mt-2">
-          — Piedad Morales, <cite class="normal-case">Lluvia en la Memoria</cite>
+        <span
+          class="block text-right text-xs font-sans font-semibold text-on-surface-variant uppercase tracking-widest mt-2"
+        >
+          — Piedad Morales, <cite class="normal-case">Lluvia en la Memoria</cite
+          >
         </span>
       </div>
 
-      <p class="font-body text-base sm:text-lg text-on-surface-variant mt-6 leading-relaxed">
-        Nacida en 1956 en <strong class="text-charcoal font-semibold">Puerto Berrío</strong>, a orillas del majestuoso Río Magdalena, Piedad Morales convirtió su existencia en un zurcido constante entre la poesía íntima, la salud comunitaria y el pacifismo feminista en Antioquia.
+      <p
+        class="font-body text-base sm:text-lg text-on-surface-variant mt-6 leading-relaxed"
+      >
+        Nacida en 1956 en <strong class="text-charcoal font-semibold"
+          >Puerto Berrío</strong
+        >, a orillas del majestuoso Río Magdalena, Piedad Morales convirtió su
+        existencia en un zurcido constante entre la poesía íntima, la salud
+        comunitaria y el pacifismo feminista en Antioquia.
       </p>
     </div>
 
     <!-- Main Content Layout: Story + Archival Imagery -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
-
       <!-- Left Column (lg:col-span-7): Chronological Journey / Timeline -->
       <div class="lg:col-span-7 space-y-8">
-        
-        <div class="flex items-center justify-between pb-2 border-b border-outline-variant/60">
-          <h3 class="font-display text-2xl font-bold text-terracotta flex items-center gap-2">
+        <div
+          class="flex items-center justify-between pb-2 border-b border-outline-variant/60"
+        >
+          <h3
+            class="font-display text-2xl font-bold text-terracotta flex items-center gap-2"
+          >
             <span class="material-symbols-outlined text-ochre">timeline</span>
             <span>Hitos de Resistencia y Ternura</span>
           </h3>
-          <span class="text-xs font-mono font-bold text-ochre bg-secondary-fixed/60 px-2.5 py-1 rounded-md">
+          <span
+            class="text-xs font-mono font-bold text-ochre bg-secondary-fixed/60 px-2.5 py-1 rounded-md"
+          >
             1956 — 2012
           </span>
         </div>
 
         <!-- Vertical Timeline Tree -->
-        <div class="relative pl-6 sm:pl-8 space-y-10 before:absolute before:inset-y-2 before:left-2.5 sm:before:left-3.5 before:w-0.5 before:bg-gradient-to-b before:from-terracotta before:via-ochre before:to-feminist-purple">
-          
+        <div
+          class="relative pl-6 sm:pl-8 space-y-10 before:absolute before:inset-y-2 before:left-2.5 sm:before:left-3.5 before:w-0.5 before:bg-gradient-to-b before:from-terracotta before:via-ochre before:to-feminist-purple"
+        >
           <!-- Milestone 1: 1956 -->
           <div class="relative group">
             <!-- Timeline Pin Dot -->
-            <div class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-terracotta flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-terracotta transition-all duration-300">
-              <span class="w-2 h-2 rounded-full bg-terracotta group-hover:bg-on-primary"></span>
+            <div
+              class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-terracotta flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-terracotta transition-all duration-300"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-terracotta group-hover:bg-on-primary"
+              ></span>
             </div>
 
-            <div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all">
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span class="font-display text-xl font-bold text-terracotta">1956</span>
-                <span class="text-[11px] font-bold uppercase tracking-wider text-ochre bg-secondary-fixed/50 px-2.5 py-0.5 rounded-full">
+            <div
+              class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex flex-wrap items-center justify-between gap-2 mb-2"
+              >
+                <span class="font-display text-xl font-bold text-terracotta"
+                  >1956</span
+                >
+                <span
+                  class="text-[11px] font-bold uppercase tracking-wider text-ochre bg-secondary-fixed/50 px-2.5 py-0.5 rounded-full"
+                >
                   Raíces Ribereñas
                 </span>
               </div>
               <h4 class="font-display text-lg font-bold text-charcoal mb-1.5">
                 Cuna a Orillas del Río Magdalena
               </h4>
-              <p class="font-body text-sm text-on-surface-variant leading-relaxed">
-                Nace en Puerto Berrío. Crece escuchando el fluir del río y el trajín de los pescadores y trenes. Ese paisaje de agua indómita, calor y dolor ribereño marcaría para siempre su estética poética y su honda empatía por las comunidades más vulnerables.
+              <p
+                class="font-body text-sm text-on-surface-variant leading-relaxed"
+              >
+                Nace en Puerto Berrío. Crece escuchando el fluir del río y el
+                trajín de los pescadores y trenes. Ese paisaje de agua indómita,
+                calor y dolor ribereño marcaría para siempre su estética poética
+                y su honda empatía por las comunidades más vulnerables.
               </p>
             </div>
           </div>
 
           <!-- Milestone 2: Años 80 -->
           <div class="relative group">
-            <div class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-ochre flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-ochre transition-all duration-300">
-              <span class="w-2 h-2 rounded-full bg-ochre group-hover:bg-on-primary"></span>
+            <div
+              class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-ochre flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-ochre transition-all duration-300"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-ochre group-hover:bg-on-primary"
+              ></span>
             </div>
 
-            <div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all">
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span class="font-display text-xl font-bold text-ochre">Años 80</span>
-                <span class="text-[11px] font-bold uppercase tracking-wider text-terracotta bg-primary-fixed px-2.5 py-0.5 rounded-full">
+            <div
+              class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex flex-wrap items-center justify-between gap-2 mb-2"
+              >
+                <span class="font-display text-xl font-bold text-ochre"
+                  >Años 80</span
+                >
+                <span
+                  class="text-[11px] font-bold uppercase tracking-wider text-terracotta bg-primary-fixed px-2.5 py-0.5 rounded-full"
+                >
                   Vocación y Cuidado
                 </span>
               </div>
               <h4 class="font-display text-lg font-bold text-charcoal mb-1.5">
                 Enfermería Psiquiátrica y la Palabra como Medicina
               </h4>
-              <p class="font-body text-sm text-on-surface-variant leading-relaxed">
-                Se traslada a Medellín y se forma en enfermería en salud mental. En los pabellones hospitalarios y asilos, comprende que la locura y el sufrimiento a menudo son heridas del abandono social. Allí la escucha compasiva y la poesía nacen como bálsamo curativo.
+              <p
+                class="font-body text-sm text-on-surface-variant leading-relaxed"
+              >
+                Se traslada a Medellín y se forma en enfermería en salud mental.
+                En los pabellones hospitalarios y asilos, comprende que la
+                locura y el sufrimiento a menudo son heridas del abandono
+                social. Allí la escucha compasiva y la poesía nacen como bálsamo
+                curativo.
               </p>
             </div>
           </div>
 
           <!-- Milestone 3: Años 90 -->
           <div class="relative group">
-            <div class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-feminist-purple flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-feminist-purple transition-all duration-300">
-              <span class="w-2 h-2 rounded-full bg-feminist-purple group-hover:bg-on-primary"></span>
+            <div
+              class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-feminist-purple flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-feminist-purple transition-all duration-300"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-feminist-purple group-hover:bg-on-primary"
+              ></span>
             </div>
 
-            <div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all">
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span class="font-display text-xl font-bold text-feminist-purple">Años 90</span>
-                <span class="text-[11px] font-bold uppercase tracking-wider text-feminist-purple bg-tertiary-fixed px-2.5 py-0.5 rounded-full">
+            <div
+              class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex flex-wrap items-center justify-between gap-2 mb-2"
+              >
+                <span
+                  class="font-display text-xl font-bold text-feminist-purple"
+                  >Años 90</span
+                >
+                <span
+                  class="text-[11px] font-bold uppercase tracking-wider text-feminist-purple bg-tertiary-fixed px-2.5 py-0.5 rounded-full"
+                >
                   Despertar Político
                 </span>
               </div>
               <h4 class="font-display text-lg font-bold text-charcoal mb-1.5">
                 Rutas de Paz y Colectivos Feministas
               </h4>
-              <p class="font-body text-sm text-on-surface-variant leading-relaxed">
-                En una Medellín golpeada por el narcotráfico y la guerra urbana, Piedad se integra activamente a organizaciones pioneras como la <strong class="text-charcoal font-semibold">Corporación Vamos Mujer</strong>, la <strong class="text-charcoal font-semibold">Ruta Pacífica de las Mujeres</strong> y <strong class="text-charcoal font-semibold">Mujeres de Negro</strong>, proclamando la desmilitarización de la vida y el cuerpo.
+              <p
+                class="font-body text-sm text-on-surface-variant leading-relaxed"
+              >
+                En una Medellín golpeada por el narcotráfico y la guerra urbana,
+                Piedad se integra activamente a organizaciones pioneras como la <strong
+                  class="text-charcoal font-semibold"
+                  >Corporación Vamos Mujer</strong
+                >, la <strong class="text-charcoal font-semibold"
+                  >Ruta Pacífica de las Mujeres</strong
+                > y <strong class="text-charcoal font-semibold"
+                  >Mujeres de Negro</strong
+                >, proclamando la desmilitarización de la vida y el cuerpo.
               </p>
             </div>
           </div>
 
           <!-- Milestone 4: 2000s -->
           <div class="relative group">
-            <div class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-ochre flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-ochre transition-all duration-300">
-              <span class="w-2 h-2 rounded-full bg-ochre group-hover:bg-on-primary"></span>
+            <div
+              class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-ochre flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-ochre transition-all duration-300"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-ochre group-hover:bg-on-primary"
+              ></span>
             </div>
 
-            <div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all">
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span class="font-display text-xl font-bold text-ochre">2000 — 2010</span>
-                <span class="text-[11px] font-bold uppercase tracking-wider text-secondary bg-secondary-fixed/50 px-2.5 py-0.5 rounded-full">
+            <div
+              class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex flex-wrap items-center justify-between gap-2 mb-2"
+              >
+                <span class="font-display text-xl font-bold text-ochre"
+                  >2000 — 2010</span
+                >
+                <span
+                  class="text-[11px] font-bold uppercase tracking-wider text-secondary bg-secondary-fixed/50 px-2.5 py-0.5 rounded-full"
+                >
                   Arte Comunitario
                 </span>
               </div>
               <h4 class="font-display text-lg font-bold text-charcoal mb-1.5">
                 Carnavalenguas: La Risa como Trinchera
               </h4>
-              <p class="font-body text-sm text-on-surface-variant leading-relaxed">
-                Adopta el personaje entrañable de <strong class="text-charcoal font-semibold">«El Hada Rebelde»</strong>: cabellera tejida con hebras de lana de colores, rostro pintado de mariposa y vestidos artesanales. Funda comparsas populares donde el juego, los títeres y el teatro callejero devuelven la esperanza a niñas, niños y madres comunitarias.
+              <p
+                class="font-body text-sm text-on-surface-variant leading-relaxed"
+              >
+                Adopta el personaje entrañable de <strong
+                  class="text-charcoal font-semibold"
+                  >«La Cigarra Rebelde»</strong
+                >: cabellera tejida con hebras de lana de colores, rostro
+                pintado de mariposa y vestidos artesanales. Funda comparsas
+                populares donde el juego, los títeres y el teatro callejero
+                devuelven la esperanza a niñas, niños y madres comunitarias.
               </p>
             </div>
           </div>
 
           <!-- Milestone 5: 2012 y Memoria -->
           <div class="relative group">
-            <div class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-terracotta flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-terracotta transition-all duration-300">
-              <span class="w-2 h-2 rounded-full bg-terracotta group-hover:bg-on-primary"></span>
+            <div
+              class="absolute -left-6 sm:-left-8 top-1.5 w-6 h-6 rounded-full bg-surface-container-lowest border-2 border-terracotta flex items-center justify-center shadow-xs group-hover:scale-125 group-hover:bg-terracotta transition-all duration-300"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-terracotta group-hover:bg-on-primary"
+              ></span>
             </div>
 
-            <div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all">
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span class="font-display text-xl font-bold text-terracotta">2012</span>
-                <span class="text-[11px] font-bold uppercase tracking-wider text-terracotta bg-primary-fixed px-2.5 py-0.5 rounded-full">
+            <div
+              class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/50 paper-shadow hover:-translate-y-0.5 transition-all"
+            >
+              <div
+                class="flex flex-wrap items-center justify-between gap-2 mb-2"
+              >
+                <span class="font-display text-xl font-bold text-terracotta"
+                  >2012</span
+                >
+                <span
+                  class="text-[11px] font-bold uppercase tracking-wider text-terracotta bg-primary-fixed px-2.5 py-0.5 rounded-full"
+                >
                   Siembra y Semilla
                 </span>
               </div>
               <h4 class="font-display text-lg font-bold text-charcoal mb-1.5">
                 Paso a la Eternidad en la Memoria Colectiva
               </h4>
-              <p class="font-body text-sm text-on-surface-variant leading-relaxed">
-                Su siembra física en Medellín dejó un legado imperecedero. Sus poemas, cantos y muñecas de trapo permanecen como testimonios vivos de que la ternura no es debilidad, sino la forma más valiente de la dignidad humana.
+              <p
+                class="font-body text-sm text-on-surface-variant leading-relaxed"
+              >
+                Su siembra física en Medellín dejó un legado imperecedero. Sus
+                poemas, cantos y muñecas de trapo permanecen como testimonios
+                vivos de que la ternura no es debilidad, sino la forma más
+                valiente de la dignidad humana.
               </p>
             </div>
           </div>
-
         </div>
-
       </div>
 
       <!-- Right Column (lg:col-span-5): Archival Visual Cards & Authentic Photographs -->
       <div class="lg:col-span-5 space-y-8">
-
         <!-- Photo 1: Piedad Morales with Rainbow Yarn Hair (PiedadMorales3.jpeg) -->
         <div class="relative group">
-          
           <!-- Handcrafted cross-stitch detailing -->
-          <div class="absolute -top-3 -right-3 z-20 flex items-center gap-1 text-ochre select-none pointer-events-none" aria-hidden="true">
-            <span class="material-symbols-outlined text-lg rotate-45">close</span>
-            <span class="material-symbols-outlined text-lg rotate-45">close</span>
+          <div
+            class="absolute -top-3 -right-3 z-20 flex items-center gap-1 text-ochre select-none pointer-events-none"
+            aria-hidden="true"
+          >
+            <span class="material-symbols-outlined text-lg rotate-45"
+              >close</span
+            >
+            <span class="material-symbols-outlined text-lg rotate-45"
+              >close</span
+            >
           </div>
 
-          <div class="rag-doll-border bg-surface-container-highest p-3 paper-shadow transform -rotate-1 group-hover:rotate-0 transition-transform duration-500 bg-paper-grain">
-            <div class="relative overflow-hidden rounded-lg aspect-[4/4.5] bg-surface-container">
-              <img 
-                src="/images/PiedadMorales3.jpeg" 
+          <div
+            class="rag-doll-border bg-surface-container-highest p-3 paper-shadow transform -rotate-1 group-hover:rotate-0 transition-transform duration-500 bg-paper-grain"
+          >
+            <div
+              class="relative overflow-hidden rounded-lg aspect-[4/4.5] bg-surface-container"
+            >
+              <img
+                src="/images/PiedadMorales3.jpeg"
                 alt="Retrato auténtico de Piedad Morales luciendo su icónica peluca de lanas multicolores y su mirada serena"
                 class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-transparent pointer-events-none"></div>
-              
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-transparent pointer-events-none"
+              >
+              </div>
+
               <!-- Caption Badge -->
-              <div class="absolute bottom-3 left-3 right-3 bg-surface/95 backdrop-blur-xs p-3 rounded-md border border-outline-variant/60 shadow-sm">
+              <div
+                class="absolute bottom-3 left-3 right-3 bg-surface/95 backdrop-blur-xs p-3 rounded-md border border-outline-variant/60 shadow-sm"
+              >
                 <div class="flex items-center justify-between">
                   <div>
-                    <p class="font-display font-bold text-terracotta text-sm">Piedad Morales en Carnaval</p>
-                    <p class="font-body text-xs text-on-surface-variant">Personificando al Hada Rebelde con corona de hebras</p>
+                    <p class="font-display font-bold text-terracotta text-sm">
+                      Piedad Morales en Carnaval
+                    </p>
+                    <p class="font-body text-xs text-on-surface-variant">
+                      Personificando a la Cigarra Rebelde con su corona de
+                      hebras
+                    </p>
                   </div>
-                  <span class="w-8 h-8 rounded-full bg-ochre/10 flex items-center justify-center text-ochre">
-                    <span class="material-symbols-outlined text-base">palette</span>
+                  <span
+                    class="w-8 h-8 rounded-full bg-ochre/10 flex items-center justify-center text-ochre"
+                  >
+                    <span class="material-symbols-outlined text-base"
+                      >palette</span
+                    >
                   </span>
                 </div>
               </div>
@@ -216,25 +359,44 @@
 
         <!-- Photo 2: Community Women & Sorority (PiedadMorales4.jpeg) -->
         <div class="relative group">
-          <div class="rag-doll-border-alt bg-surface-container-highest p-3 paper-shadow transform rotate-1 group-hover:rotate-0 transition-transform duration-500 bg-paper-grain">
-            <div class="relative overflow-hidden rounded-lg aspect-[4/3] bg-surface-container">
-              <img 
-                src="/images/PiedadMorales4.jpeg" 
+          <div
+            class="rag-doll-border-alt bg-surface-container-highest p-3 paper-shadow transform rotate-1 group-hover:rotate-0 transition-transform duration-500 bg-paper-grain"
+          >
+            <div
+              class="relative overflow-hidden rounded-lg aspect-[4/3] bg-surface-container"
+            >
+              <img
+                src="/images/PiedadMorales4.jpeg"
                 alt="Fotografía comunitaria de mujeres activistas y Piedad compartiendo sonrisas, rostros pintados y sororidad en Medellín"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
-              <div class="absolute inset-0 bg-gradient-to-t from-charcoal/65 via-transparent to-transparent pointer-events-none"></div>
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-charcoal/65 via-transparent to-transparent pointer-events-none"
+              >
+              </div>
 
               <!-- Caption Badge -->
-              <div class="absolute bottom-3 left-3 right-3 bg-surface/95 backdrop-blur-xs p-3 rounded-md border border-outline-variant/60 shadow-sm">
+              <div
+                class="absolute bottom-3 left-3 right-3 bg-surface/95 backdrop-blur-xs p-3 rounded-md border border-outline-variant/60 shadow-sm"
+              >
                 <div class="flex items-center justify-between">
                   <div>
-                    <p class="font-display font-bold text-feminist-purple text-sm">Círculo de Mujeres y Alegría</p>
-                    <p class="font-body text-xs text-on-surface-variant">Talleres populares y comparsas por la paz</p>
+                    <p
+                      class="font-display font-bold text-feminist-purple text-sm"
+                    >
+                      Círculo de Mujeres y Alegría
+                    </p>
+                    <p class="font-body text-xs text-on-surface-variant">
+                      Talleres populares y comparsas por la paz
+                    </p>
                   </div>
-                  <span class="w-8 h-8 rounded-full bg-feminist-purple/10 flex items-center justify-center text-feminist-purple">
-                    <span class="material-symbols-outlined text-base">diversity_1</span>
+                  <span
+                    class="w-8 h-8 rounded-full bg-feminist-purple/10 flex items-center justify-center text-feminist-purple"
+                  >
+                    <span class="material-symbols-outlined text-base"
+                      >diversity_1</span
+                    >
                   </span>
                 </div>
               </div>
@@ -243,28 +405,38 @@
         </div>
 
         <!-- Handwritten Verse Scrapbook Card: "Regalo" -->
-        <div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/60 paper-shadow colouring-fill relative overflow-hidden">
+        <div
+          class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/60 paper-shadow colouring-fill relative overflow-hidden"
+        >
           <div class="absolute top-3 right-3 text-terracotta/20">
             <span class="material-symbols-outlined text-5xl">auto_stories</span>
           </div>
 
-          <span class="text-[11px] font-mono font-bold uppercase tracking-widest text-terracotta block mb-2">
+          <span
+            class="text-[11px] font-mono font-bold uppercase tracking-widest text-terracotta block mb-2"
+          >
             Fragmento del Archivo • «Regalo»
           </span>
-          
-          <div class="font-poetry text-charcoal text-sm leading-relaxed bg-paper-grain p-4 rounded-md border border-outline-variant/40 mb-4 shadow-inner">
+
+          <div
+            class="font-poetry text-charcoal text-sm leading-relaxed bg-paper-grain p-4 rounded-md border border-outline-variant/40 mb-4 shadow-inner"
+          >
             <p class="whitespace-pre-line italic">
-              «Quisiera dibujar un verso pequeñito:
-              Regalarte fragancia de ramas,
-              Colores secretos de arco iris,
-              sabores de frutas lunares...
+              «Quisiera dibujar un verso pequeñito: Regalarte fragancia de
+              ramas, Colores secretos de arco iris, sabores de frutas lunares...
               Sólo tengo esta estrella que muere en mí.»
             </p>
           </div>
 
-          <div class="flex items-center justify-between pt-2 border-t border-outline-variant/30 text-xs">
-            <span class="font-medium text-on-surface-variant">Manuscrito de Piedad</span>
-            <span class="font-bold text-terracotta inline-flex items-center gap-1">
+          <div
+            class="flex items-center justify-between pt-2 border-t border-outline-variant/30 text-xs"
+          >
+            <span class="font-medium text-on-surface-variant"
+              >Manuscrito de Piedad</span
+            >
+            <span
+              class="font-bold text-terracotta inline-flex items-center gap-1"
+            >
               <span>Palabra descalza</span>
               <span class="material-symbols-outlined text-sm">feather</span>
             </span>
@@ -272,27 +444,38 @@
         </div>
 
         <!-- Testimonial Quote Card -->
-        <div class="bg-tertiary-fixed/60 text-on-tertiary-fixed p-6 rounded-xl border border-feminist-purple/20 paper-shadow relative">
-          <span class="material-symbols-outlined text-feminist-purple/30 text-5xl absolute -top-2 -left-1 select-none pointer-events-none">
+        <div
+          class="bg-tertiary-fixed/60 text-on-tertiary-fixed p-6 rounded-xl border border-feminist-purple/20 paper-shadow relative"
+        >
+          <span
+            class="material-symbols-outlined text-feminist-purple/30 text-5xl absolute -top-2 -left-1 select-none pointer-events-none"
+          >
             format_quote
           </span>
-          <p class="font-serif italic text-sm sm:text-base text-charcoal leading-relaxed relative z-10 pl-6 mb-4">
-            "Piedad era un huracán de ternura. Sus palabras no solo consolaban el dolor de la violencia; despertaban el coraje y la dignidad de cada mujer que la escuchaba."
+          <p
+            class="font-serif italic text-sm sm:text-base text-charcoal leading-relaxed relative z-10 pl-6 mb-4"
+          >
+            "Piedad era un huracán de ternura. Sus palabras no solo consolaban
+            el dolor de la violencia; despertaban el coraje y la dignidad de
+            cada mujer que la escuchaba."
           </p>
           <div class="flex items-center gap-3 pl-6">
-            <div class="w-9 h-9 rounded-full bg-feminist-purple text-on-primary flex items-center justify-center font-bold text-xs">
+            <div
+              class="w-9 h-9 rounded-full bg-feminist-purple text-on-primary flex items-center justify-center font-bold text-xs"
+            >
               SM
             </div>
             <div>
-              <p class="font-display font-bold text-xs text-charcoal">Silvia María García Ángel</p>
-              <p class="text-[11px] text-on-surface-variant font-medium">Compañera de ruta y memoria viva</p>
+              <p class="font-display font-bold text-xs text-charcoal">
+                Silvia María García Ángel
+              </p>
+              <p class="text-[11px] text-on-surface-variant font-medium">
+                Compañera de ruta y memoria viva
+              </p>
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
-
   </div>
 </section>

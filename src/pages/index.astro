@@ -1,14 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import Hero from '../components/Hero.astro';
-import Biografia from '../components/Biografia.astro';
-import Poesia from '../components/Poesia.astro';
-import Activismo from '../components/Activismo.astro';
-import Carnavalenguas from '../components/Carnavalenguas.astro';
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
+import Biografia from "../components/Biografia.astro";
+import Poesia from "../components/Poesia.astro";
+import Activismo from "../components/Activismo.astro";
+import Carnavalenguas from "../components/Carnavalenguas.astro";
 ---
 
-<Layout 
+<Layout
   title="La Matria - Piedad Morales | El Hada Rebelde"
   description="Tejido con memoria y poesía. Archivo vivo de Piedad Morales, donde la palabra se vuelve hilo y la lucha se viste de colores orgánicos."
 >
@@ -21,215 +21,336 @@ import Carnavalenguas from '../components/Carnavalenguas.astro';
 
     <!-- Bento Grid Section: Archival Tributaries -->
     <section class="w-full max-w-7xl mx-auto px-6 sm:px-8 py-12 lg:py-16">
-      
       <!-- Section Header -->
       <div class="mb-10 text-center sm:text-left">
-        <span class="text-xs font-bold uppercase tracking-widest text-ochre bg-secondary-fixed/50 px-3 py-1 rounded-full border border-ochre/20">
+        <span
+          class="text-xs font-bold uppercase tracking-widest text-ochre bg-secondary-fixed/50 px-3 py-1 rounded-full border border-ochre/20"
+        >
           Capítulos del Legado
         </span>
-        <h2 class="font-display text-3xl sm:text-4xl font-bold text-terracotta mt-3 tracking-tight">
+        <h2
+          class="font-display text-3xl sm:text-4xl font-bold text-terracotta mt-3 tracking-tight"
+        >
           Hilos de Vida, Poesía y Resistencia
         </h2>
-        <p class="font-body text-on-surface-variant max-w-2xl mt-2 text-sm sm:text-base">
-          Explora los cuatro pilares fundamentales de la obra y vida comunitaria de Piedad Morales.
+        <p
+          class="font-body text-on-surface-variant max-w-2xl mt-2 text-sm sm:text-base"
+        >
+          Explora los cuatro pilares fundamentales de la obra y vida comunitaria
+          de Piedad Morales.
         </p>
       </div>
 
       <!-- Bento Grid -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-        
         <!-- 1. Biography: "El Hada Rebelde" (Spans 2 cols on md+) -->
-        <article 
+        <article
           id="resumen-biografia"
           class="md:col-span-2 bg-surface-container-low p-7 sm:p-8 rag-doll-border paper-shadow relative group hover:-translate-y-1 transition-all duration-300 colouring-fill flex flex-col justify-between"
         >
-          <div class="absolute top-5 right-5 text-secondary-fixed select-none pointer-events-none">
-            <span class="material-symbols-outlined text-4xl opacity-60 text-ochre">auto_awesome</span>
+          <div
+            class="absolute top-5 right-5 text-secondary-fixed select-none pointer-events-none"
+          >
+            <span
+              class="material-symbols-outlined text-4xl opacity-60 text-ochre"
+              >auto_awesome</span
+            >
           </div>
 
           <div>
             <div class="flex items-center gap-3 mb-6">
-              <span class="w-10 h-10 rounded-full bg-ochre/15 flex items-center justify-center text-ochre">
-                <span class="material-symbols-outlined text-2xl">history_edu</span>
+              <span
+                class="w-10 h-10 rounded-full bg-ochre/15 flex items-center justify-center text-ochre"
+              >
+                <span class="material-symbols-outlined text-2xl"
+                  >history_edu</span
+                >
               </span>
               <div>
-                <h3 class="font-display text-2xl sm:text-3xl font-bold text-ochre">El Hada Rebelde</h3>
-                <p class="text-xs font-medium text-on-surface-variant uppercase tracking-wider">Cronología de Resistencia</p>
+                <h3
+                  class="font-display text-2xl sm:text-3xl font-bold text-ochre"
+                >
+                  La Cigarra Rebelde
+                </h3>
+                <p
+                  class="text-xs font-medium text-on-surface-variant uppercase tracking-wider"
+                >
+                  Cronología de Resistencia
+                </p>
               </div>
             </div>
 
             <!-- Timeline Nodes -->
-            <div class="space-y-6 relative before:absolute before:inset-y-0 before:left-3 before:w-0.5 before:bg-outline-variant/60">
-              
+            <div
+              class="space-y-6 relative before:absolute before:inset-y-0 before:left-3 before:w-0.5 before:bg-outline-variant/60"
+            >
               <!-- Item 1 -->
               <div class="flex gap-4 relative">
-                <div class="w-6 h-6 rounded-full bg-feminist-purple flex-shrink-0 z-10 border-4 border-surface-container-low shadow-xs"></div>
+                <div
+                  class="w-6 h-6 rounded-full bg-feminist-purple flex-shrink-0 z-10 border-4 border-surface-container-low shadow-xs"
+                >
+                </div>
                 <div>
-                  <h4 class="font-bold text-terracotta text-base">Primeros Trazos</h4>
-                  <p class="text-on-surface-variant font-body text-sm mt-0.5 leading-relaxed">
-                    Nacida entre montañas y ríos, sus primeras palabras fueron versos escondidos en libretas de papel rústico, sintiendo el dolor y la ternura de su pueblo.
+                  <h4 class="font-bold text-terracotta text-base">
+                    Primeros Trazos
+                  </h4>
+                  <p
+                    class="text-on-surface-variant font-body text-sm mt-0.5 leading-relaxed"
+                  >
+                    Nacida entre montañas y ríos, sus primeras palabras fueron
+                    versos escondidos en libretas de papel rústico, sintiendo el
+                    dolor y la ternura de su pueblo.
                   </p>
                 </div>
               </div>
 
               <!-- Item 2 -->
               <div class="flex gap-4 relative">
-                <div class="w-6 h-6 rounded-full bg-ochre flex-shrink-0 z-10 border-4 border-surface-container-low shadow-xs"></div>
+                <div
+                  class="w-6 h-6 rounded-full bg-ochre flex-shrink-0 z-10 border-4 border-surface-container-low shadow-xs"
+                >
+                </div>
                 <div>
-                  <h4 class="font-bold text-terracotta text-base">El Despertar Político</h4>
-                  <p class="text-on-surface-variant font-body text-sm mt-0.5 leading-relaxed">
-                    Comprende que la poesía no es un simple adorno contemplativo, sino un arma de resistencia pacífica y la herramienta fundamental para tejer comunidad y sororidad.
+                  <h4 class="font-bold text-terracotta text-base">
+                    El Despertar Político
+                  </h4>
+                  <p
+                    class="text-on-surface-variant font-body text-sm mt-0.5 leading-relaxed"
+                  >
+                    Comprende que la poesía no es un simple adorno
+                    contemplativo, sino un arma de resistencia pacífica y la
+                    herramienta fundamental para tejer comunidad y sororidad.
                   </p>
                 </div>
               </div>
 
               <!-- Item 3 -->
               <div class="flex gap-4 relative">
-                <div class="w-6 h-6 rounded-full bg-terracotta flex-shrink-0 z-10 border-4 border-surface-container-low shadow-xs"></div>
+                <div
+                  class="w-6 h-6 rounded-full bg-terracotta flex-shrink-0 z-10 border-4 border-surface-container-low shadow-xs"
+                >
+                </div>
                 <div>
-                  <h4 class="font-bold text-terracotta text-base">Voz de las Sin Voz</h4>
-                  <p class="text-on-surface-variant font-body text-sm mt-0.5 leading-relaxed">
-                    Fundadora de espacios de diálogo, talleres literarios y protectora incansable de la memoria viva frente a la violencia.
+                  <h4 class="font-bold text-terracotta text-base">
+                    Voz de las Sin Voz
+                  </h4>
+                  <p
+                    class="text-on-surface-variant font-body text-sm mt-0.5 leading-relaxed"
+                  >
+                    Fundadora de espacios de diálogo, talleres literarios y
+                    protectora incansable de la memoria viva frente a la
+                    violencia.
                   </p>
                 </div>
               </div>
-
             </div>
           </div>
 
-          <div class="mt-8 pt-4 border-t border-outline-variant/40 flex items-center justify-between">
-            <span class="text-xs font-bold text-ochre uppercase tracking-wider">Memoria Histórica</span>
-            <a href="#biografia" class="inline-flex items-center gap-1 text-xs font-bold text-terracotta hover:underline">
+          <div
+            class="mt-8 pt-4 border-t border-outline-variant/40 flex items-center justify-between"
+          >
+            <span class="text-xs font-bold text-ochre uppercase tracking-wider"
+              >Memoria Histórica</span
+            >
+            <a
+              href="#biografia"
+              class="inline-flex items-center gap-1 text-xs font-bold text-terracotta hover:underline"
+            >
               <span>Leer biografía extendida</span>
-              <span class="material-symbols-outlined text-sm">arrow_downward</span>
+              <span class="material-symbols-outlined text-sm"
+                >arrow_downward</span
+              >
             </a>
           </div>
         </article>
 
         <!-- 2. Poetry: "Des Hojada Palabra" (Spans 1 col, tall) -->
-        <article 
+        <article
           id="resumen-poesia"
           class="md:col-span-1 bg-surface p-7 sm:p-8 border border-outline-variant/70 rounded-xl paper-shadow relative flex flex-col justify-between group hover:-translate-y-1 transition-all duration-300"
         >
-          <div class="absolute -right-3 -top-3 w-11 h-11 bg-primary text-on-primary rounded-full flex items-center justify-center rotate-12 shadow-md">
+          <div
+            class="absolute -right-3 -top-3 w-11 h-11 bg-primary text-on-primary rounded-full flex items-center justify-center rotate-12 shadow-md"
+          >
             <span class="material-symbols-outlined text-xl">draw</span>
           </div>
 
           <div>
             <div class="text-center mb-6">
-              <span class="text-xs font-mono font-bold uppercase tracking-widest text-feminist-purple">Obra Poética</span>
-              <h3 class="font-display text-2xl font-bold text-feminist-purple mt-1">Des Hojada Palabra</h3>
+              <span
+                class="text-xs font-mono font-bold uppercase tracking-widest text-feminist-purple"
+                >Obra Poética</span
+              >
+              <h3
+                class="font-display text-2xl font-bold text-feminist-purple mt-1"
+              >
+                Des Hojada Palabra
+              </h3>
             </div>
 
             <!-- Typewriter Manuscript Block -->
-            <div class="font-poetry text-charcoal text-sm bg-paper-grain p-5 rounded-md relative shadow-inner border border-outline-variant/50 colouring-fill leading-relaxed">
-              <div class="absolute top-0 left-0 w-full h-3 bg-surface/60 border-b border-dashed border-outline-variant"></div>
+            <div
+              class="font-poetry text-charcoal text-sm bg-paper-grain p-5 rounded-md relative shadow-inner border border-outline-variant/50 colouring-fill leading-relaxed"
+            >
+              <div
+                class="absolute top-0 left-0 w-full h-3 bg-surface/60 border-b border-dashed border-outline-variant"
+              >
+              </div>
               <p class="whitespace-pre-line mt-1">
-                Como hilo rojo
-                que zurce el tiempo,
-                la memoria se niega
-                a ser silencio.
-                
-                En cada puntada,
-                un nombre.
-                En cada verso,
-                un hogar.
+                Como hilo rojo que zurce el tiempo, la memoria se niega a ser
+                silencio. En cada puntada, un nombre. En cada verso, un hogar.
               </p>
             </div>
           </div>
 
           <div class="mt-6 text-center">
-            <a 
-              href="#poesia" 
+            <a
+              href="#poesia"
               class="text-terracotta font-body text-xs font-bold uppercase tracking-wider underline decoration-wavy hover:text-ochre transition-colors inline-flex items-center gap-1"
             >
               <span>Explorar Antología</span>
-              <span class="material-symbols-outlined text-sm">auto_stories</span>
+              <span class="material-symbols-outlined text-sm">auto_stories</span
+              >
             </a>
           </div>
         </article>
 
         <!-- 3. Activism: "Rutas de Paz" (Spans 1 col) -->
-        <article 
+        <article
           id="resumen-activismo"
           class="bg-tertiary-fixed text-on-tertiary-fixed p-7 sm:p-8 rag-doll-border-alt paper-shadow relative overflow-hidden group hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
         >
-          <div class="absolute top-4 right-4 text-feminist-purple opacity-30 select-none pointer-events-none">
+          <div
+            class="absolute top-4 right-4 text-feminist-purple opacity-30 select-none pointer-events-none"
+          >
             <span class="material-symbols-outlined text-4xl">diversity_1</span>
           </div>
-          <div class="absolute -right-8 -bottom-8 opacity-10 text-feminist-purple select-none pointer-events-none transform rotate-45 group-hover:rotate-90 transition-transform duration-700">
-            <span class="material-symbols-outlined text-[130px]">group_work</span>
+          <div
+            class="absolute -right-8 -bottom-8 opacity-10 text-feminist-purple select-none pointer-events-none transform rotate-45 group-hover:rotate-90 transition-transform duration-700"
+          >
+            <span class="material-symbols-outlined text-[130px]"
+              >group_work</span
+            >
           </div>
 
           <div class="relative z-10">
-            <div class="flex items-center gap-2 text-feminist-purple font-bold text-xs uppercase tracking-wider mb-3">
+            <div
+              class="flex items-center gap-2 text-feminist-purple font-bold text-xs uppercase tracking-wider mb-3"
+            >
               <span class="material-symbols-outlined text-base">campaign</span>
               <span>Movimiento Social</span>
             </div>
             <h3 class="font-display text-2xl font-bold mb-3">Rutas de Paz</h3>
             <p class="font-body text-sm leading-relaxed mb-6 opacity-90">
-              Caminando junto a <strong class="font-semibold">Vamos Mujer</strong>, <strong class="font-semibold">Ruta Pacífica</strong> y <strong class="font-semibold">Mujeres de Negro</strong>. Tejiendo redes de resistencia comunitaria con hilos indestructibles de dignidad y memoria.
+              Caminando junto a <strong class="font-semibold"
+                >Vamos Mujer</strong
+              >, <strong class="font-semibold">Ruta Pacífica</strong> y <strong
+                class="font-semibold">Mujeres de Negro</strong
+              >. Tejiendo redes de resistencia comunitaria con hilos
+              indestructibles de dignidad y memoria.
             </p>
           </div>
 
           <div class="relative z-10 flex flex-wrap gap-2 pt-2">
-            <span class="bg-surface-container-lowest text-feminist-purple px-3 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs">
+            <span
+              class="bg-surface-container-lowest text-feminist-purple px-3 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs"
+            >
               Sororidad
             </span>
-            <span class="bg-surface-container-lowest text-feminist-purple px-3 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs">
+            <span
+              class="bg-surface-container-lowest text-feminist-purple px-3 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs"
+            >
               Justicia
             </span>
-            <span class="bg-surface-container-lowest text-feminist-purple px-3 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs">
+            <span
+              class="bg-surface-container-lowest text-feminist-purple px-3 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase border border-feminist-purple/30 shadow-xs"
+            >
               No Violencia
             </span>
           </div>
 
-          <div class="relative z-10 mt-6 pt-4 border-t border-feminist-purple/30 flex items-center justify-between">
-            <span class="text-xs font-bold text-feminist-purple uppercase tracking-wider">Movilización</span>
-            <a href="#activismo" class="inline-flex items-center gap-1 text-xs font-bold text-feminist-purple hover:underline">
+          <div
+            class="relative z-10 mt-6 pt-4 border-t border-feminist-purple/30 flex items-center justify-between"
+          >
+            <span
+              class="text-xs font-bold text-feminist-purple uppercase tracking-wider"
+              >Movilización</span
+            >
+            <a
+              href="#activismo"
+              class="inline-flex items-center gap-1 text-xs font-bold text-feminist-purple hover:underline"
+            >
               <span>Explorar Rutas de Paz</span>
-              <span class="material-symbols-outlined text-sm">arrow_downward</span>
+              <span class="material-symbols-outlined text-sm"
+                >arrow_downward</span
+              >
             </a>
           </div>
         </article>
 
         <!-- 4. Carnavalenguas: "El Legado de la Alegría" (Spans 2 cols on md+) -->
-        <article 
+        <article
           id="resumen-carnavalenguas"
           class="md:col-span-2 bg-secondary-container text-on-secondary-container p-7 sm:p-8 rag-doll-border paper-shadow relative group hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden"
         >
           <!-- Running Stitches top & bottom -->
-          <div class="stitch-line absolute top-0 left-4 right-4 opacity-50"></div>
-          <div class="stitch-line absolute bottom-0 left-4 right-4 opacity-50"></div>
+          <div class="stitch-line absolute top-0 left-4 right-4 opacity-50">
+          </div>
+          <div class="stitch-line absolute bottom-0 left-4 right-4 opacity-50">
+          </div>
 
           <div class="relative z-10">
             <div class="flex items-center justify-between mb-4">
               <div class="flex items-center gap-3">
-                <span class="w-10 h-10 rounded-full bg-secondary/15 flex items-center justify-center text-secondary">
-                  <span class="material-symbols-outlined text-2xl">celebration</span>
+                <span
+                  class="w-10 h-10 rounded-full bg-secondary/15 flex items-center justify-center text-secondary"
+                >
+                  <span class="material-symbols-outlined text-2xl"
+                    >celebration</span
+                  >
                 </span>
                 <div>
-                  <h3 class="font-display text-2xl sm:text-3xl font-bold text-secondary">Carnavalenguas</h3>
-                  <p class="text-xs font-bold text-secondary/80 uppercase tracking-widest">El Legado de la Alegría</p>
+                  <h3
+                    class="font-display text-2xl sm:text-3xl font-bold text-secondary"
+                  >
+                    Carnavalenguas
+                  </h3>
+                  <p
+                    class="text-xs font-bold text-secondary/80 uppercase tracking-widest"
+                  >
+                    El Legado de la Alegría
+                  </p>
                 </div>
               </div>
-              <div class="w-12 h-12 bg-surface-container-lowest rounded-full flex items-center justify-center paper-shadow transform group-hover:scale-110 transition-transform">
-                <span class="material-symbols-outlined text-terracotta text-2xl">volunteer_activism</span>
+              <div
+                class="w-12 h-12 bg-surface-container-lowest rounded-full flex items-center justify-center paper-shadow transform group-hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-outlined text-terracotta text-2xl"
+                  >volunteer_activism</span
+                >
               </div>
             </div>
 
-            <p class="font-body text-sm sm:text-base leading-relaxed max-w-xl text-on-secondary-container/90">
-              Un proyecto pionero de liberación a través del arte callejero, los títeres y el juego popular, donde la risa y el color se transforman en actos políticos de ternura revolucionaria.
+            <p
+              class="font-body text-sm sm:text-base leading-relaxed max-w-xl text-on-secondary-container/90"
+            >
+              Un proyecto pionero de liberación a través del arte callejero, los
+              títeres y el juego popular, donde la risa y el color se
+              transforman en actos políticos de ternura revolucionaria.
             </p>
           </div>
 
-          <div class="relative z-10 mt-6 pt-4 border-t border-ochre/20 flex flex-wrap items-center justify-between gap-3">
-            <div class="flex items-center gap-2 text-xs font-semibold text-secondary">
+          <div
+            class="relative z-10 mt-6 pt-4 border-t border-ochre/20 flex flex-wrap items-center justify-between gap-3"
+          >
+            <div
+              class="flex items-center gap-2 text-xs font-semibold text-secondary"
+            >
               <span class="material-symbols-outlined text-sm">festival</span>
               <span>Teatro Popular & Resistencia Cultural</span>
             </div>
-            <a 
-              href="#carnavalenguas" 
+            <a
+              href="#carnavalenguas"
               class="text-xs font-bold uppercase tracking-wider text-terracotta bg-surface-container-lowest px-4 py-2 rounded-lg paper-shadow hover:scale-105 transition-all inline-flex items-center gap-1"
             >
               <span>Conocer las comparsas</span>
@@ -237,7 +358,6 @@ import Carnavalenguas from '../components/Carnavalenguas.astro';
             </a>
           </div>
         </article>
-
       </div>
     </section>
 
@@ -255,29 +375,49 @@ import Carnavalenguas from '../components/Carnavalenguas.astro';
   </main>
 
   <!-- Tactile Footer -->
-  <footer class="bg-surface-container-lowest border-t border-outline-variant/50 w-full py-12 mt-16 bg-paper-grain relative">
+  <footer
+    class="bg-surface-container-lowest border-t border-outline-variant/50 w-full py-12 mt-16 bg-paper-grain relative"
+  >
     <div class="stitch-line absolute top-0 left-0 right-0 opacity-60"></div>
-    <div class="max-w-7xl mx-auto px-6 sm:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
-      
-      <div class="flex flex-col items-center md:items-start gap-1 text-center md:text-left">
-        <span class="font-display text-2xl font-bold text-terracotta">La Matria</span>
+    <div
+      class="max-w-7xl mx-auto px-6 sm:px-8 flex flex-col md:flex-row justify-between items-center gap-6"
+    >
+      <div
+        class="flex flex-col items-center md:items-start gap-1 text-center md:text-left"
+      >
+        <span class="font-display text-2xl font-bold text-terracotta"
+          >La Matria</span
+        >
         <p class="font-body text-xs text-on-surface-variant max-w-sm">
-          Tributo al pensamiento poético y social de Piedad Morales. Tejido con memoria, amor comunitario y resistencia.
+          Tributo al pensamiento poético y social de Piedad Morales. Tejido con
+          memoria, amor comunitario y resistencia.
         </p>
       </div>
 
-      <nav class="flex flex-wrap justify-center gap-6 text-xs font-bold uppercase tracking-wider font-body text-on-surface-variant">
-        <a href="#hero" class="hover:text-terracotta transition-colors">Inicio</a>
-        <a href="#biografia" class="hover:text-terracotta transition-colors">Biografía</a>
-        <a href="#poesia" class="hover:text-terracotta transition-colors">Poesía</a>
-        <a href="#activismo" class="hover:text-terracotta transition-colors">Activismo</a>
-        <a href="#carnavalenguas" class="hover:text-terracotta transition-colors">Carnavalenguas</a>
+      <nav
+        class="flex flex-wrap justify-center gap-6 text-xs font-bold uppercase tracking-wider font-body text-on-surface-variant"
+      >
+        <a href="#hero" class="hover:text-terracotta transition-colors"
+          >Inicio</a
+        >
+        <a href="#biografia" class="hover:text-terracotta transition-colors"
+          >Biografía</a
+        >
+        <a href="#poesia" class="hover:text-terracotta transition-colors"
+          >Poesía</a
+        >
+        <a href="#activismo" class="hover:text-terracotta transition-colors"
+          >Activismo</a
+        >
+        <a
+          href="#carnavalenguas"
+          class="hover:text-terracotta transition-colors">Carnavalenguas</a
+        >
       </nav>
 
       <div class="text-xs font-mono text-on-surface-variant/80">
         © 2026 La Matria • Archivo Vivo
       </div>
-
     </div>
   </footer>
 </Layout>
